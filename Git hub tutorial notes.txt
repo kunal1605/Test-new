@@ -1,0 +1,63 @@
+Git hub tutorial notes
+
+git config --list -> shows your username and email to which git belongs
+
+
+From githup to local steps
+-------------------------------------
+git clone (your_url)---> to clone a repo form githut to my local mahine
+cd--> chande directory
+cd .. --> going one step back
+ls--> list all the files
+ls -a --> to see all files including hidden files(accessible only hrough terminal)
+	
+git status--> to check status of newly added or modified files
+git add (you file name)--> adds new or changed files in your working directory to git staging area
+
+git commit -m ("your message")---->this is called after git add, this is in your local pc only not on remote
+
+git push origin main---> to upload local repo content to remote reop(origin is the default reponame on GitHub , and we are pushing in main branch
+
+
+
+Creating repo from our Local machine(Laptop)
+-------------------------------------------------
+git init---> initialize git on a folder
+git status--> check the status 
+git add--> add that file to staging area
+git commit -m "message" --> commit your changes(int  you local)
+now if you want to push your changes to remote server, create a repo form your profile
+git remote add origin https://github.com/kunal1605/Test-new.git --> origin is remote repo url alias
+git remote -v --> to check which origin is set in remote
+git branch -->  to check currently we are in which branch
+git branch -m main --> to rename branch name
+git push origin main --> push your changes to origin repo in main branch
+or
+git push -u origin main--->(-u = set upstream) this is used when in future we will push all our changes in origin main only and we don't want to write origin main every time then we use (-u) in between.
+
+
+
+git checkout -b  (branch name)   -> to create a new branch
+git checkout (branch name)--->If you want to go from one branch to another
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git remote add origin https://github.com/yourusername/your-repo-name.git----> this is repo url
+
+git push origin main
+
+if does not work then use below one
+
+git push --set-upstream origin master  --> used to push 
+
