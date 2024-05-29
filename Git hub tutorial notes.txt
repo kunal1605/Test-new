@@ -77,7 +77,7 @@ Merge Conflicts
 ---------------------------------------------
 
 to merge two git file
-git merge (tree name)
+git merge (branch name)
 
 
 
