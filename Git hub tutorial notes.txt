@@ -63,3 +63,28 @@ if does not work then use below one
 
 git push --set-upstream origin master  --> used to push 
 
+if you change a branch all the 
+
+
+git diff (branch name)---> to get diff between two branch while merging
+
+when we merged the code in remote server now we need to pull those changes.
+
+git pull origin main--> used to fetch and download content from a remote repo and immediately update the local repo to match current content
+
+
+Merge Conflicts
+---------------------------------------------
+
+to merge two git file
+git merge (branch name)
+
+
+
+
+
+
+
+
+
+
