@@ -90,12 +90,18 @@ git reset (filename)--> for single file if you want to reset
 
 git reset--> FOR many files
 
-If already ci=omitted 1 file
+If already comitted 1 file
 -----------------------------
 
 git reset head~1---> changes comes in unstaged 
 
 git log ---> for checking all the commits done
+
+
+If we wan to go back multiplecommits
+--------------------------------------
+git reset (hashcode--> from git log)--> you can go to any cmmit whose has you will give
+
 
 
 
